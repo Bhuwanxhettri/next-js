@@ -69,8 +69,7 @@ export default function Home() {
     // </div>
 
     <>
-
-       <h1>Hello world</h1>
+       <h1>React query</h1>
       
     </>
   )
