@@ -1,18 +1,12 @@
 import '../styles/globals.css'
-import {
-  useQuery,
-  useMutation,
-  useQueryClient,
-  QueryClient,
-  QueryClientProvider,
-} from 'react-query'
+import { store } from '../store/store'
+import { Provider } from 'react-redux'
 
 function MyApp({ Component, pageProps }) {
-  const queryClient = new QueryClient()
   return <>
-     <QueryClientProvider client={queryClient}>
-             <Component {...pageProps} />
-     </QueryClientProvider>
+    <Provider store={store}>
+       <Component {...pageProps} />
+    </Provider>
   </>
 }
 

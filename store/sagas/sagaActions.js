@@ -1,0 +1,4 @@
+export const sagaActions = {
+    FETCH_PRODUCT_DATA: 'FETCH_PRODUCT_DATA',
+    FETCH_USER_DATA: 'FETCH_USER_DATA',
+};

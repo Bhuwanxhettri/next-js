@@ -9,13 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.0",
     "next": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-query": "^3.39.2",
     "react-read-more-read-less": "^1.0.7",
+    "react-redux": "^8.0.5",
     "react-show-more-text": "^1.6.2",
-    "read-more-react": "^1.0.10"
+    "read-more-react": "^1.0.10",
+    "redux-saga": "^1.2.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
