@@ -1,6 +1,5 @@
 import { call, put, all, takeEvery } from 'redux-saga/effects';
 import { getProduct } from '../../features/product/productSlice';
-import { getUsers } from '../../features/user/userSlice';
 import { sagaActions } from './sagaActions';
 
 const productFetch = async () => {

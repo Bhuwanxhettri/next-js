@@ -1,6 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -69,8 +70,11 @@ export default function Home() {
     // </div>
 
     <>
-       <h1>React query</h1>
-      
+      <div className="flex mx-auto  my-5 gap-6 flex-col w-56 items-center">
+        <button className="bg-red-600 text-white font-bold px-5">
+          <Link href={"/ReadMore"}>Read More</Link>
+        </button>
+      </div>
     </>
-  )
+  );
 }
