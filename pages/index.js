@@ -74,6 +74,10 @@ export default function Home() {
         <button className="bg-red-600 text-white font-bold px-5">
           <Link href={"/ReadMore"}>Read More</Link>
         </button>
+
+        <button className="bg-red-600 text-white font-bold px-5">
+          <Link href={"/calender"}>Calender</Link>
+        </button>
       </div>
     </>
   );

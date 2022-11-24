@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^35.3.2",
+    "@ckeditor/ckeditor5-react": "^5.0.3",
+    "@ichwn/ck-editor": "^1.1.1-no-math-toolbar",
     "@reduxjs/toolkit": "^1.9.0",
     "next": "13.0.3",
     "react": "18.2.0",
+    "react-ckeditor-component": "^1.1.0",
     "react-dom": "18.2.0",
     "react-query": "^3.39.2",
     "react-read-more-read-less": "^1.0.7",
