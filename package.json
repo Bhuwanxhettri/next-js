@@ -13,6 +13,7 @@
     "@ckeditor/ckeditor5-react": "^5.0.3",
     "@ichwn/ck-editor": "^1.1.1-no-math-toolbar",
     "@reduxjs/toolkit": "^1.9.0",
+    "ckeditor4-react": "^4.1.0",
     "next": "13.0.3",
     "react": "18.2.0",
     "react-ckeditor-component": "^1.1.0",
